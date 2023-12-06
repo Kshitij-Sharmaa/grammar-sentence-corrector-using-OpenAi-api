@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="style.css">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Grammar Corrector</title>
+</head>
+<body>
+    <h1 class="heading">Corrected Sentence</h1>
+
+    <div class="bigContainer">
+
+        <div class="container">
+            
+            <form id="myForm">
+                <input type="text" id="name" name="name" placeholder="Write Sentence Here....">
+                <button type="button" class="bt" onclick="submitForm()">Submit</button>
+            </form>
+        </div>
+        
+        <ul class="ul">
+            <li id="matches"></li>
+        </ul>
+        
+    </div>
+    </body>
+<script src="script.js"></script>
+</html>

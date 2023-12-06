@@ -1,0 +1,63 @@
+body {
+    min-width: 400px;
+   background-image: url("https://wallpapers.com/images/hd/abstract-background-6m6cjbifu3zpfv84.jpg");
+
+}
+
+.heading{
+    text-align: center;
+    font-size: large;
+    font-weight: 900;
+}
+
+#matches{
+    font-size: medium;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 700px;
+    margin: auto;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#name{
+    margin-top: 10px;
+    display: block;
+    padding: 8px;
+    width: 500px;
+    border-radius: 5px;
+    border: none;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.bt{
+    width:90px;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    font-weight: 500;
+    color: white;
+    background-color: blue;
+    cursor: pointer;
+    display: block;
+}
+
+.ul{
+    margin: auto;
+    margin-top: 50px;
+    list-style: none;
+}
+
+.bigContainer{
+    border: none;
+    width: 700px;
+    margin: auto;
+    background: linear-gradient(to right, rgb(160, 130, 231), rgb(244, 123, 171));
+    height: 500px;
+}
